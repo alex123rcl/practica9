@@ -1,0 +1,148 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+    background-color: #d9f5f0;
+    padding-top: 80px;
+    }
+    section {
+    overflow: auto;
+    }
+    textarea {
+    resize: vertical;
+    }
+    .center {
+    text-align: center;
+    }
+    .center h1 {
+    margin-bottom: 10px;
+    }
+
+    /* typography */
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1;
+    }
+    h1 {
+    font-size: 3em;
+    letter-spacing: -2px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #051729;
+    }
+    h2 {
+    font-size: 1.2em;
+    letter-spacing: -1px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: normal;
+    color: #772828;
+    }
+    p {
+    font-size: 1.1em;
+    line-height: 1.7em;
+    }
+
+    /* header */
+#logo {
+    float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: #ffffff;
+  text-transform: lowercase;
+  letter-spacing: -1px;
+  padding-top: 5px;
+  font-weight: 600;
+    }
+    #logo:hover {
+    justify-content: center;
+    display: flex;
+    color: #ad4c4c;
+    text-decoration: none;
+    }
+
+    .containers{
+        max-width:960px;
+        margin: 0 auto;
+        padding: 10px ;
+        border:1px solid #7ce1fa;
+        box-shadow:  0px 0px 0px;
+        background-color: #99dae2;
+        border-radius: 10px;
+        
+
+
+    }
+
+   // .navbar {
+    //    max-width: 960px;
+      //  background-color: rgb(71, 129, 129);
+        //border-radius: 5px;
+       // width: 1000px ;
+        //margin:0 auto;
+
+  //  }
+
+  .images
+  {
+    max-width: 500px ;
+    margin: 0 auto;
+
+  }
+
+  .footer{
+    text-align: center;
+    font-size:x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+    
+  .jumbotron{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .image-container{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .image-container:img{
+max-width: 100px;
+height: auto;
+}
+
+form {
+    max-width: 250px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    background: #ffffff;  
+    border-radius: 10px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+}
+
+div {
+    margin-bottom: 15px; 
+}
+
+label {
+
+    display: block;  
+    margin-bottom: 10px;
+    color: #080808; 
+}
+
+
+button {
+    background-color: #007bff; 
+    color: white; 
+    padding: 10px 15px; 
+    border-radius: 10px; 
+    cursor: pointer; 
+    font-size: 16px; 
+}
+
+button:hover {
+    background-color: #00b35f; 
+}
